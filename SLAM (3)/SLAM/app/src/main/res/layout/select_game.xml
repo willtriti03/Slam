@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/modebackground"
+    android:gravity="right|bottom"
+    >
+
+    <Button
+        android:layout_width="440dp"
+        android:layout_height="70dp"
+        android:background="@drawable/three"
+        android:id="@+id/threeWindowBtn"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_width="520dp"
+        android:layout_height="70dp"
+        android:background="@drawable/six"
+        android:id="@+id/sixWindowBtn"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_width="610dp"
+        android:layout_height="70dp"
+        android:background="@drawable/nine"
+        android:id="@+id/nineWindowBtn"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6_9"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:screenOrientation="landscape">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/combo" />
+
+                <ImageView
+                    android:id="@+id/nineTenStatus"
+                    android:layout_width="11dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/clear_win"/>
+                <ImageView
+                    android:id="@+id/nineOneStatus"
+                    android:layout_width="11dp"
+                    android:layout_height="13dp"
+                    android:background="@drawable/score0"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/life" />
+
+                <ImageView
+                    android:id="@+id/nineLifeTxt"
+                    android:layout_width="12dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/life_f"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="12dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/score" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/nineHunMill"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+
+                <ImageView
+                    android:id="@+id/nineTenMill"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+
+                <ImageView
+                    android:id="@+id/nineMill"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+
+                <ImageView
+                    android:id="@+id/nineHunThou"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+
+                <ImageView
+                    android:id="@+id/nineTenThou"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+                <ImageView
+                    android:id="@+id/nineThou"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+                <ImageView
+                    android:id="@+id/nineHun"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+                <ImageView
+                    android:id="@+id/nineTen"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/clear_win" />
+                <ImageView
+                    android:id="@+id/nineOne"
+                    android:layout_width="8dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/score0" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="143dp"
+                    android:layout_height="78dp"
+                    android:background="@drawable/b" />
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="78dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/b" />
+
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="78dp"
+
+                    android:background="@drawable/b" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/nineBtn_bg1"
+                    android:layout_width="63dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/l_win" />
+
+                <ImageView
+                    android:id="@+id/nineBtn_bg2"
+                    android:layout_width="63dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/r_win" />
+
+                <ImageView
+                    android:id="@+id/nineBtn_bg3"
+                    android:layout_width="63dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="17.5dp"
+
+
+                    android:background="@drawable/l_win" />
+
+                <ImageView
+                    android:id="@+id/nineBtn_bg4"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="17.5dp"
+
+                    android:background="@drawable/r_win" />
+
+                <ImageView
+                    android:id="@+id/nineBtn_bg5"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="17.5dp"
+
+
+                    android:background="@drawable/l_win" />
+
+                <ImageView
+                    android:id="@+id/nineBtn_bg6"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/r_win" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">>
+
+                <Button
+                    android:id="@+id/nineBtn1"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+
+
+                    android:background="@drawable/clear_win" />
+
+                <Button
+                    android:id="@+id/nineBtn2"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginRight="17dp"
+
+                    android:background="@drawable/clear_win" />
+
+                <Button
+                    android:id="@+id/nineBtn3"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="0dp"
+
+                    android:background="@drawable/clear_win" />
+
+                <Button
+                    android:id="@+id/nineBtn4"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="17dp"
+
+                    android:background="@drawable/clear_win" />
+
+                <Button
+                    android:id="@+id/nineBtn5"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="0dp"
+
+                    android:background="@drawable/clear_win" />
+
+                <Button
+                    android:id="@+id/nineBtn6"
+                    android:layout_width="65dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/clear_win" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="78dp"
+
+                android:background="@drawable/b" />
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="19dp"
+                android:background="@drawable/b" />
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="78dp"
+
+                android:background="@drawable/b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/nineBtn_bg7"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+                android:background="@drawable/l_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg8"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="16dp"
+
+                android:background="@drawable/r_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg9"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/l_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg10"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="17.5dp"
+
+                android:background="@drawable/r_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg11"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="17.5dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/l_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg12"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+
+                android:background="@drawable/r_win" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/countDown"
+                android:background="@drawable/clear_win"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/nineBtn7"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn8"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+                android:layout_marginRight="17dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn9"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn10"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="17dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn11"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn12"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+
+                android:background="@drawable/clear_win" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="78dp"
+
+                android:background="@drawable/b" />
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="19dp"
+                android:background="@drawable/b" />
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="78dp"
+
+                android:background="@drawable/b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">>
+
+            <ImageView
+                android:id="@+id/nineBtn_bg13"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+
+                android:background="@drawable/l_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg14"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="16dp"
+
+                android:background="@drawable/r_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg15"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/l_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg16"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="17.5dp"
+
+                android:background="@drawable/r_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg17"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="17.5dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/l_win" />
+
+            <ImageView
+                android:id="@+id/nineBtn_bg18"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+
+                android:background="@drawable/r_win" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">>
+
+            <Button
+                android:id="@+id/nineBtn13"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn14"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="16dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn15"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn16"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="17dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn17"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="0dp"
+
+                android:background="@drawable/clear_win" />
+
+            <Button
+                android:id="@+id/nineBtn18"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+
+
+                android:background="@drawable/clear_win" />
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
